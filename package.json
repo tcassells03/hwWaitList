@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tcassells03.github.io/hwWaitList",
+  "homepage": "https://tcassells03.github.io/hwWaitList/",
   "type": "module",
   "scripts": {
     "dev": "vite",
