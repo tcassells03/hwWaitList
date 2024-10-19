@@ -101,7 +101,7 @@ const Form = () => {
     formData.append("RecieveUpdates", recieveUpdates)
     e.preventDefault();
     fetch(
-      "https://script.google.com/macros/s/AKfycbwXiQO3uXfW6COMe_gXpeAdj9P6lCmf7V_YeEATTjE9PtvByj5GMjFa02kyirE0VgPHbQ/exec",
+      "https://script.google.com/macros/s/AKfycbw8eTxV0pXYOAIGqJe6zPVZcj2EAaATRFSzXoqGMPzICV__ronztlbmoKzXWeNqt8qEIg/exec",
       {
         method: "POST",
         body: formData,
