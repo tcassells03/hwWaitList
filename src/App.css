@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0 auto;
   text-align: center;
+  background-color: white !important;
 }
 
 .logo {
@@ -83,4 +84,11 @@
   }
 }
 
+p{
+  color:black !important;
+}
+
+h2{
+  color:black !important;
+}
 
