@@ -10,7 +10,6 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { Checkbox } from "@mui/material";
 import FormControlLabel from '@mui/material/FormControlLabel';
-import backgroundImg from '../assets/background.jpg';
 
 const Form = () => {
   const [name, setName] = useState("");

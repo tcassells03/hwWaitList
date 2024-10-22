@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImg from '../assets/background1.jpg';
+import backgroundImg from '../assets/header.svg';
 
 const Footer = () => {
   return (

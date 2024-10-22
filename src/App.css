@@ -65,12 +65,12 @@
 
 .backgroundDiv{
   /*background-image: url('assets/background3.jpg');*/
-  background: linear-gradient(to bottom, white, rgb(224, 223, 223)); 
+ /* background: linear-gradient(to bottom, white, rgb(224, 223, 223)); 
   background-size: cover;
   background-position: top;
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 
