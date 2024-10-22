@@ -219,7 +219,7 @@ more info to thoughts/comments*/
          disableTouchListener
         >
           
-          <Button variant="outlined" onClick={handleSubmit}>
+          <Button variant="contained" onClick={handleSubmit} sx={{ color: 'white' }}>
             Submit
           </Button>
         </Tooltip>
