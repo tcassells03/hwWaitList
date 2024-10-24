@@ -6,17 +6,15 @@ import "./App.css";
 import { createTheme, ThemeProvider} from "@mui/material";
 
 function App() {
-  const [count, setCount] = useState(0);
 
+  
   const theme = createTheme({
     palette: {
       primary: {
-        main: '#00a3e0',
-  
-        contrastText: '#fff',
+        main: '#00a3e0'
       }
     }
-  })
+    })
 
   return (
     <ThemeProvider theme = {theme}>

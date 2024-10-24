@@ -27,11 +27,6 @@ const Form = () => {
   const [numberOfPupilsError, setNumberOfPupilsError] = useState(false);
   const [thoughtsAndCommentsError, setThoughtsAndCommentsError] = useState(false);
 
-  const [emailErrorText, setEmailErrorText] = useState("");
-  const emptyErrorText = "Please don't leave blank"
-  //const [nameError, setNameError] = useState(false);
-  //const [nameError, setNameError] = useState(false);
-  
 
 
   const [tooltipOpen, setTooltipOpen] = useState(false)
@@ -128,20 +123,24 @@ const Form = () => {
   };
 
   return (
-    /*name, role, checkbox sign up for more info, 
-contact info,
-no number of pupils
-role in school
-
-dropdown
-principal, vp, senior teacher, teacher
-
-more info to thoughts/comments*/
 <div className = "backgroundDiv">
     <div className="form" >
-      <h2>Description Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-      <p>Sign up below to hear news.</p>
+      <p><strong>dailydiary</strong> is a digital diary for students aiming to help project and time manage more effectively. <br></br><br></br>
+
+The thought came from one of our founders realisation that he never knew how to manage his time and school subjects while studying and resorted to missing deadlines or forgetting homework’s altogether. 
+<br></br>
+<br></br>
+dailydiary aims to give access to students, teachers and parents by creating a central platform for timetables, homework’s and other general information curated round a personal student calendar. 
+<br></br>
+<br></br>
+<strong>For Students</strong> - this will help increase valuable skills, such as project management, time management and personal planning
+<br></br>
+<br></br>
+<strong>For Teachers</strong> - this will give a central platform to upload homework’s, relay information to parents and review timetables
+<br></br>
+<br></br>
+<strong>For Parents</strong> - A true reflection on how your child is doing in preparation for Parent-Teacher interviews, data on how your child is performing and assurance on school information.</p><br></br>
+      <p><strong>Sign up below to hear the latest news.</strong></p>
       <Stack spacing={2}>
       <TextField
           error = {nameError}
