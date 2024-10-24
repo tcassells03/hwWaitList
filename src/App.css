@@ -42,7 +42,7 @@
   color: #888;
 }
 
-.hwImage{
+.hwImage {
   max-width: 100%;
   height: auto;
 }
@@ -66,27 +66,26 @@
 /* Media query for smaller screens */
 @media (max-width: 845px) {
   .headerText {
-      font-size: 24px; 
+    font-size: 24px;
   }
   .form {
     padding: 2rem 4rem 4rem;
   }
 }
 
-p{
-  color:black !important;
+p {
+  color: black !important;
 }
 
-h2{
-  color:black !important;
+h2 {
+  color: black !important;
 }
 
 .css-gjwoc1 {
-  color:black !important;
+  color: black !important;
 }
 
-.footerContainer{
+.footerContainer {
   background-color: #00a3e0;
   height: 100px;
-
 }
