@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tcassells03.github.io/hwWaitList/",
+  "homepage": "https://daily-diary.co.uk",
   "type": "module",
   "scripts": {
     "dev": "vite",
